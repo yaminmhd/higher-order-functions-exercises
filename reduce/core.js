@@ -31,6 +31,7 @@ function luckyNumbers(array) {
   });
 
   return initial + ' ' + numberString + '.';
+  // good variable names here
 }
 
 module.exports = {

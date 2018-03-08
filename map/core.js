@@ -5,6 +5,7 @@ function multiplyBy10(array) {
 function onlyVowels(array) {
   return array.map(element => {
     return element.replace(/[^aeiou]/ig, "");
+    // nice use of regex
   });
 }
 
