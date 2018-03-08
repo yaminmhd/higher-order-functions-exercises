@@ -1,17 +1,19 @@
 function multiplyBy10(array) {
-  return array;
+  return array.map(element => element * 10);
 }
 
 function onlyVowels(array) {
-  return array;
+  return array.map(element => {
+    return element.replace(/[^aeiou]/ig, "");
+  });
 }
 
 function doubleMatrix(array) {
-  return array;
+  return array.map(row => row.map(item => item * 2));
 }
 
 function onlyNames(array) {
-  return array;
+  return array.map(object => object.name);
 }
 
 module.exports = {
